@@ -5,10 +5,7 @@ def getMatrix():
     cols = int(input("Enter number of columns: "))
     matrix = []
     for i in range(rows):
-        data = []
-        for j in range(cols):
-            element = int(input(f"Enter Element [{i + 1}][{j + 1}]: "))
-            data.append(element)
+        data = list(map(int,input(f"Enter Elements of Row {i+1} Seperated by Space: ").split()))
         matrix.append(data)
     return np.array(matrix)
 
@@ -20,6 +17,10 @@ def main():
         print("3. Multiplication")
         print("4. Transpose")
         print("5. Determinant")
+        print("6. Inverse")
+        print("7. Rank")
+        print("8. Trace")
+        print("9. Scalar Multiplication")
         print("10. Exit")
         choice = int(input("Enter your choice: "))
 
@@ -62,6 +63,35 @@ def main():
                 matrix = getMatrix()
                 det = np.linalg.det(matrix)
                 print(f"The Determinant Of Your Matrix Is {det}")
+            except Exception as e:
+                print(e)
+        elif choice == 6:
+            try:
+                matrix = getMatrix()
+                print("Inverse Matrix: ")
+                print(np.linalg.inv(matrix))
+            except Exception as e:
+                print(e)
+        elif choice == 7:
+            try:
+                matrix = getMatrix()
+                print("Rank of Matrix is:",end = " ")
+                print(np.linalg.matrix_rank(matrix))
+            except Exception as e:
+                print(e)
+        elif choice == 8:
+            try:
+                matrix = getMatrix()
+                print("Trace of Matrix is:",end = " ")
+                print(np.trace(matrix))
+            except Exception as e:
+                print(e)
+        elif choice == 9:
+            try:
+                matrix = getMatrix()
+                value = int(input("Enter Scalar Number: "))
+                print("Matrix After Scalar Multiplication:")
+                print(matrix*value)
             except Exception as e:
                 print(e)
         elif choice == 10:
