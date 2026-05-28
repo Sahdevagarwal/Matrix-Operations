@@ -41,7 +41,7 @@ This project was created to practice:
 ### 1. Clone the repository
 
 ```bash
-git clone <your-repo-link>
+git clone https://github.com/Sahdevagarwal/Matrix-Operations.git
 ```
 
 ### 2. Navigate to the project folder
