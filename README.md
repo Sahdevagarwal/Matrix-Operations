@@ -1,38 +1,43 @@
 # Matrix Operations
 
-![Python](https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python)
-![NumPy](https://img.shields.io/badge/NumPy-Library-orange?style=for-the-badge&logo=numpy)
-![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)
+![Python](https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge\&logo=python)
+![NumPy](https://img.shields.io/badge/NumPy-Library-orange?style=for-the-badge\&logo=numpy)
+![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
 
-A simple command-line Matrix Operations program built using Python and NumPy.
+A command-line Matrix Operations program built using Python and NumPy.
 
 This project was created to practice:
-- NumPy arrays
-- Matrix operations
-- Linear algebra basics
-- Python functions
-- Exception handling
-- Interactive console applications
+
+* NumPy arrays
+* Matrix operations
+* Linear algebra basics
+* Python functions
+* Exception handling
+* Interactive console applications
 
 ---
 
 ## Features
 
-- Matrix Addition
-- Matrix Subtraction
-- Matrix Multiplication
-- Matrix Transpose
-- Matrix Determinant
-- Interactive Menu System
-- Error Handling
-- Continuous Program Loop
+* Matrix Addition
+* Matrix Subtraction
+* Matrix Multiplication
+* Matrix Transpose
+* Matrix Determinant
+* Matrix Inverse
+* Matrix Rank
+* Matrix Trace
+* Scalar Multiplication
+* Interactive Menu System
+* Error Handling
+* Continuous Program Loop
 
 ---
 
 ## Technologies Used
 
-- Python
-- NumPy
+* Python
+* NumPy
 
 ---
 
@@ -47,7 +52,7 @@ git clone https://github.com/Sahdevagarwal/Matrix-Operations.git
 ### 2. Navigate to the project folder
 
 ```bash
-cd matrix-operations
+cd Matrix-Operations
 ```
 
 ### 3. Install NumPy
@@ -74,6 +79,10 @@ Enter Your Choice of Operation:
 3. Multiplication
 4. Transpose
 5. Determinant
+6. Inverse
+7. Rank
+8. Trace
+9. Scalar Multiplication
 10. Exit
 ```
 
@@ -82,26 +91,28 @@ Enter Your Choice of Operation:
 ## Concepts Practiced
 
 This project helped practice:
-- NumPy arrays
-- Matrix dimensions and shapes
-- Matrix multiplication rules
-- Transpose operations
-- Determinants
-- Loops and conditionals
-- Functions and modular code
-- Exception handling
+
+* NumPy arrays
+* Matrix dimensions and shapes
+* Matrix multiplication rules
+* Linear algebra operations
+* Exception handling
+* Functions and modular code
+* Loops and conditionals
+* Interactive CLI applications
 
 ---
 
 ## Future Improvements
 
-Planned features:
-- Matrix Inverse
-- Matrix Rank
-- Scalar Multiplication
-- Better Input Validation
-- Cleaner Output Formatting
-- GUI Version
+Possible future upgrades:
+
+* Better Input Validation
+* Cleaner Output Formatting
+* Matrix Power
+* Eigenvalues & Eigenvectors
+* GUI Version
+* Export Results to File
 
 ---
 
